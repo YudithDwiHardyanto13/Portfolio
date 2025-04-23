@@ -2,6 +2,8 @@ import { BackgroundBeamsWithCollision } from "@/components/ui/background-beams-w
 import TrueFocus from "./components/TrueFocus/TrueFocus";
 import React from "react";
 import { AnimatedTestimonials } from "@/components/ui/animated-testimonials";
+import Navbar from './components/Navbar/Navbar';
+
 const testimonials = [
   {
     quote:
@@ -21,10 +23,10 @@ const testimonials = [
 export default function Home() {
   return (
     
-    <div>
+    <div className="scroll-smooth">
       
         {/* NAVBAR */}
-
+        <Navbar />
 
         
         <BackgroundBeamsWithCollision>
@@ -58,7 +60,7 @@ export default function Home() {
                     <button className="px-3 py-2 border-2 hover:bg-slate-200 border-black rounded-full shadow-md text-sm">Download CV</button>
                   </div>
                   <div>
-                    <button className="relative px-3 py-2 transition-all group text-sm">
+                    <button className="relative transition-all group px-3 py-2  text-sm">
                       See Portfolio
                       <span className="absolute bottom-0 left-1/2 w-0 h-[2px] bg-black transition-all duration-300 group-hover:w-4/5 group-hover:left-[10%]"></span>
                     </button>
@@ -69,11 +71,11 @@ export default function Home() {
           </div>
 
         </BackgroundBeamsWithCollision>
-
+ 
 
 
         {/* ABOUT ME */}
-        <div className="container mx-auto">
+        <div className="container mx-auto" id="aboutme">
           <div className="flex justify-center items-center mb-48 mt-20">
             <div>
               <div className="text-sm text-center mb-3">
@@ -132,7 +134,7 @@ export default function Home() {
 
 
         {/* PORTFOLIO */}
-        <div className="container mx-auto">
+        <div className="container mx-auto" id="portfolio">
           <div className="flex justify-center items-center min-h-screen mb-48">
             <div>
               <div className="text-sm text-center mb-3">
@@ -232,7 +234,7 @@ export default function Home() {
 
         {/* SKILLS */}
 
-        <div className="container mx-auto ">
+        <div className="container mx-auto" id="skills">
 
           <div className="flex justify-center text-center items-center overflow-x-hidden mb-48">
             <div>
@@ -335,7 +337,7 @@ export default function Home() {
         </div>
 
         {/* SERTIFICATION */}
-        <div className="container mx-auto">
+        <div className="container mx-auto" id="sertif">
           <div className="flex justify-center items-center mb-48">
             <div>
               <div className="text-center text-3xl font-bold mb-5">
@@ -380,7 +382,7 @@ export default function Home() {
         </div>
 
         {/* CONTACT */}
-        <div className="container mx-auto">
+        <div className="container mx-auto" id="contact">
           <div className="flex justify-center items-center mb-20">
             <div>
               <div className="text-center text-3xl font-bold mb-5">
