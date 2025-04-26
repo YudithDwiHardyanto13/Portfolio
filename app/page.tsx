@@ -31,7 +31,7 @@ export default function Home() {
           <div className="pt-20">
             <BackgroundBeamsWithCollision>
 
-            <div className="container mx-auto ">
+            <div className="container mx-auto " id="home">
               <div className="flex flex-col sm:flex-row justify-center items-center gap-10 sm:gap-40">
                 <div>
                   <img src="./assets/images/foto_yudith.jpg" alt="Yudith" className="rounded-full shadow-xl w-32 sm:w-40 lg:w-80" />
