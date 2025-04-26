@@ -57,13 +57,14 @@ export default function Home() {
                 </div>
                 <div className="flex justify-center gap-4">
                   <div>
-                    <button className="px-3 py-2 border-2 hover:bg-slate-200 border-black rounded-full shadow-md text-sm">Download CV</button>
+                    <a href="./CV_Yudith.pdf" target="_blank" className="px-3 py-2 border-2 hover:bg-slate-200 border-black rounded-full shadow-md text-sm">Download CV</a>
                   </div>
                   <div>
-                    <button className="relative transition-all group px-3 py-2  text-sm">
+                    
+                    <a href="#portfolio" className="relative transition-all group px-3 py-2  text-sm">
                       See Portfolio
                       <span className="absolute bottom-0 left-1/2 w-0 h-[2px] bg-black transition-all duration-300 group-hover:w-4/5 group-hover:left-[10%]"></span>
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -144,12 +145,12 @@ export default function Home() {
                 PORTFOLIO
               </div>
               <div className="flex justify-center mb-10">
-                <div className="w-full sm:w-[500px] text-center">
+                <div className="w-full sm:w-[400px] text-center ">
                   My experience in developing web and mobile applications using technologies such as Laravel, Java, PHP, HTML, CSS, jQuery, and Bootstrap.
                 </div>
               </div>
               <div className="flex justify-center"> {/* Kontainer flex untuk memusatkan grid */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-4">
                   <div className="max-w-sm rounded overflow-hidden shadow-lg">
                     <div className="w-full h-48 p-2">
                       <img src="./assets/images/POS.png" alt="POS" className="object-contained rounded-md" />
@@ -174,12 +175,12 @@ export default function Home() {
                     <div className="px-6 py-4">
                       <div className="font-bold text-xl mb-2">Procapita</div>
                       <p className="text-gray-700 text-base">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                        ProCapita Headhunter Indonesia is a Jakarta-based executive search firm specializing in senior-level recruitment across multiple industries.
                       </p>
                     </div>
                     <div className="px-6 pt-4 pb-2 flex">
                       <a href="https://procapita.co.id/en" className="w-full bg-gray-900 me-2 text-white rounded-md py-2 hover:bg-gray-950 text-center">Live Demo</a>
-                      <a href="#" className="w-full bg-gray-900 text-white rounded-md py-2 hover:bg-gray-950 text-center">Code {'</>'}</a>
+                      <a href="https://github.com/RafaelHendrajat/ProCapita" className="w-full bg-gray-900 text-white rounded-md py-2 hover:bg-gray-950 text-center">Code {'</>'}</a>
                     </div>
                   </div>
 
@@ -190,12 +191,12 @@ export default function Home() {
                     <div className="px-6 py-4">
                       <div className="font-bold text-xl mb-2">Teman Bus</div>
                       <p className="text-gray-700 text-base">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                        ProjectKIRI is a public transportation navigation platform in Indonesia. It helps users plan their trips using public transport like buses and angkot by providing the best routes between their starting point and destination.
                       </p>
                     </div>
                     <div className="px-6 pt-4 pb-2 flex">
                       <a href="https://projectkiri.id/" className="w-full bg-gray-900 me-2 text-white rounded-md py-2 hover:bg-gray-950 text-center">Live Demo</a>
-                      <a href="#" className="w-full bg-gray-900 text-white rounded-md py-2 hover:bg-gray-950 text-center">Code {'</>'}</a>
+                      <a href="https://github.com/projectkiri/Tirtayasa/tree/temanbus-group3" className="w-full bg-gray-900 text-white rounded-md py-2 hover:bg-gray-950 text-center">Code {'</>'}</a>
                     </div>
                   </div>
 
@@ -204,7 +205,7 @@ export default function Home() {
                     <div className="px-6 py-4">
                       <div className="font-bold text-xl mb-2">Space Ninja Game</div>
                       <p className="text-gray-700 text-base">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                        Space Ninja is a Flappy Bird-style game where you control a ninja flying through space, dodging obstacles. Players can unlock and switch between different ninja characters, and the game features a dynamic parallax background for a more immersive visual experience.
                       </p>
                     </div>
                     <div className="px-6 pt-4 pb-2 flex">
@@ -218,10 +219,10 @@ export default function Home() {
                     <div className="px-6 py-4">
                       <div className="font-bold text-xl mb-2">Rebuild Flappy Bird</div>
                       <p className="text-gray-700 text-base">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                        A Flappy Bird rebuild is a re-creation of the classic mobile game where players control a small bird, tapping the screen to keep it flying and avoiding obstacles like pipes. The goal is to survive as long as possible without hitting anything.
                       </p>
                     </div>
-                    <div className="px-6 pt-4 pb-2 flex">
+                    <div className="px-6 pt-4 pb-2 flex ">
                       <a href="https://yudithdwihardyanto.github.io/6181901070-YudithDwiHardyanto-flappybird/" className="w-full bg-gray-900 me-2 text-white rounded-md py-2 hover:bg-gray-950 text-center">Live Demo</a>
                       <a href="https://github.com/YudithDwiHardyanto/6181901070-YudithDwiHardyanto-flappybird" className="w-full bg-gray-900 text-white rounded-md py-2 hover:bg-gray-950 text-center">Code {'</>'}</a>
                     </div>
@@ -431,7 +432,22 @@ export default function Home() {
         </div>
 
         {/* FOOTER */}
-        
+        <div className="w-full h-[200px] bg-gray-400">
+          <div className="flex justify-center items-center h-full">
+            <div className="flex justify-between text-white gap-20 sm:gap-10">
+              <div>
+                <a href="https://github.com/YudithDwiHardyanto"><img src="./assets/images/github_icon.png" alt="" /></a>
+              </div>
+              <div>
+                <a href="https://www.linkedin.com/in/yudith-dwi-hardyanto-919324336/"><img src="./assets/images/linkedin_icon.png" alt="" /></a>
+              </div>
+              <div>
+                <a href="https://web.facebook.com/yudithxdh/"><img src="./assets/images/facebook_icon.png" alt="" /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
   );
 }
