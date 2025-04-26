@@ -24,55 +24,54 @@ export default function Home() {
   return (
     
     <div className="scroll-smooth">
-      
         {/* NAVBAR */}
         <Navbar />
 
-        
-        <BackgroundBeamsWithCollision>
-
           {/* HOME */}
-          <div className="container mx-auto">
-            <div className="flex flex-col sm:flex-row justify-center items-center gap-10 sm:gap-40">
-              <div>
-                <img src="./assets/images/foto_yudith.jpg" alt="Yudith" className="rounded-full shadow-xl w-32 sm:w-40 lg:w-80" />
-              </div>
-              <div className="text-center font-semibold">
-                <div className="mb-2 text-sm">
-                  Hello, I'm
+          <div className="pt-20">
+            <BackgroundBeamsWithCollision>
+
+            <div className="container mx-auto ">
+              <div className="flex flex-col sm:flex-row justify-center items-center gap-10 sm:gap-40">
+                <div>
+                  <img src="./assets/images/foto_yudith.jpg" alt="Yudith" className="rounded-full shadow-xl w-32 sm:w-40 lg:w-80" />
                 </div>
-                <div className="mb-2 text-2xl sm:text-4xl">
-                  Yudith Dwi Hardyanto
-                </div>
-                <div className="mb-6 text-4xl sm:text-6xl">
-                  <TrueFocus
-                    sentence="Web Developer"
-                    manualMode={false}
-                    blurAmount={5}
-                    borderColor="black"
-                    animationDuration={2}
-                    pauseBetweenAnimations={1}
-                    
-                  />
-                </div>
-                <div className="flex justify-center gap-4">
-                  <div>
-                    <a href="./CV_Yudith.pdf" target="_blank" className="px-3 py-2 border-2 hover:bg-slate-200 border-black rounded-full shadow-md text-sm">Download CV</a>
+                <div className="text-center font-semibold">
+                  <div className="mb-2 text-sm">
+                    Hello, I'm
                   </div>
-                  <div>
-                    
-                    <a href="#portfolio" className="relative transition-all group px-3 py-2  text-sm">
-                      See Portfolio
-                      <span className="absolute bottom-0 left-1/2 w-0 h-[2px] bg-black transition-all duration-300 group-hover:w-4/5 group-hover:left-[10%]"></span>
-                    </a>
+                  <div className="mb-2 text-2xl sm:text-4xl">
+                    Yudith Dwi Hardyanto
+                  </div>
+                  <div className="mb-6 text-4xl sm:text-6xl">
+                    <TrueFocus
+                      sentence="Web Developer"
+                      manualMode={false}
+                      blurAmount={5}
+                      borderColor="black"
+                      animationDuration={2}
+                      pauseBetweenAnimations={1}
+                      
+                    />
+                  </div>
+                  <div className="flex justify-center gap-4">
+                    <div>
+                      <a href="./CV_Yudith.pdf" target="_blank" className="px-3 py-2 border-2 hover:bg-slate-200 border-black rounded-full shadow-md text-sm">Download CV</a>
+                    </div>
+                    <div>
+                      
+                      <a href="#portfolio" className="relative transition-all group px-3 py-2  text-sm">
+                        See Portfolio
+                        <span className="absolute bottom-0 left-1/2 w-0 h-[2px] bg-black transition-all duration-300 group-hover:w-4/5 group-hover:left-[10%]"></span>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-
         </BackgroundBeamsWithCollision>
- 
+
+          </div>
 
 
         {/* ABOUT ME */}
